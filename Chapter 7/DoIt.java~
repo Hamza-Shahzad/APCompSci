@@ -1,7 +1,0 @@
-public interface DoIt{
-  private cow;
-  
-  public int calculate(int a);
-  public String whereIsTheCow();
-  
-}
