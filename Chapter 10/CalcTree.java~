@@ -1,0 +1,29 @@
+//******************************************************************************
+//
+// @author: Hamza Shahzad ||| CalcTree.java
+// Takes an array of CharOrInt and creates a tree, and contains a solve method
+//
+//*******************************************************************************
+
+public class CalcTree{
+  
+  private CharOrInt[] equation;
+  private TreeNode current;
+  
+  public CalcTree(CharOrInt[] eq){
+    equation = eq;
+    current = TreeNode(equation[startIndex], null, null);
+  }
+  
+  private TreeNode createTree(int startIndex){
+      
+      TreeNode current2 = TreeNode(equation[startIndex], null, null);
+      
+      if(equation[startIndex].isCharacter()){
+        if(!equation[startIndex + 1].getUsed())//symbol hasn't been used
+          current2.setLeft(createTree(startIndex + 1));
+        else
+        current2.setRight(createTree(startIndex + 2));
+      }
+      return current2;
+  }

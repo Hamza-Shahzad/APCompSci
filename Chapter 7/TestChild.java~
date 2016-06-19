@@ -1,0 +1,6 @@
+public class TestChild{
+  
+  public TestChild(){
+    System.out.println("World!");
+  }
+}

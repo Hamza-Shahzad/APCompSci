@@ -1,0 +1,26 @@
+//**********************************************************************
+//
+// @author: Hamza Shahzad ||| IntegerListDriver.java
+//
+//**********************************************************************
+
+public class IntegerListDriver{
+  
+  public static void main(String[] args){
+    
+    IntegerList list = new IntegerList();
+    
+    list.add(7);
+    list.add(5);
+    list.add(-12);
+    list.add(45);
+    list.add(8);
+    
+    
+    System.out.println(list);
+    list.insertionSort();
+    System.out.println(list);
+  }
+}
+    
+    

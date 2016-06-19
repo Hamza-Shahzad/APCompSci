@@ -1,0 +1,22 @@
+//****************************************************************************************
+//
+// @author: Hamza Shahzad ||| MonetaryCoin.java
+// Uses the Coin class and stores a value
+//
+//****************************************************************************************
+
+public class MonetaryCoin extends Coin{
+  private double value;
+  
+  public MonetaryCoin(){
+    super();
+  }
+  
+  public getValue(){
+    return value;
+  }
+  public setValue(int x){
+    value = x;
+  }
+  
+}

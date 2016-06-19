@@ -1,0 +1,12 @@
+//****************************************************************************************
+//
+// @author: Hamza Shahzad ||| Quiz.java
+// Uses the Question class to make 25 questions
+//
+//*****************************************************************************************
+
+public class Quiz{
+  
+  private ArrayList<Question> test = new ArrayList<Question>(25);
+  
+}

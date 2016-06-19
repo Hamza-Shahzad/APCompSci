@@ -1,0 +1,8 @@
+public class TicketerDriver{
+  
+  public static void main(String[] args){
+    
+    Ticketer plaza = new Ticketer();
+    
+  }
+}
